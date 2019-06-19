@@ -447,8 +447,14 @@ print_notification "Obviously, you'll want to change this upon login."
 print_notification "Consider deleting this script after execution! It contains your mysql root user password and misp mysql user password! Save those passwords, delete this script!"
 print_notification "Please note that if you require MISP to be able to send e-mail, Postfix and GPG configuration has been left as an exercise to the user. Commands for generating a GPG key for the MISP instance have been commented out at lines 356-358 if you wish to use them."
 
-#user:admin@greenanimalsbank.test
-#password:greeenanimalsbank
+
+
+#    | email | password |
+#    | greenanimalsbank@gmail.com | GreenAnimalsBankPasswd1 |
+
+
+
+
 
 
 exit 0
